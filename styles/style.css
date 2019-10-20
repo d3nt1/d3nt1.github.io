@@ -1,0 +1,46 @@
+/*Окрашивание элементов абзаца, списка, заголовка2 в красный цвет и другая настройка параметров*/
+/*p, li, h2{
+	color: red;
+	width: 1000px;
+	border 1px solid black;
+}*/
+/*Установка шрифта на всем документе*/
+html {
+	font-size: 20px;
+	font-family: 'Liu Jian Mao Cao', cursive;
+}
+/*Настройка главного заголовка*/
+h1 {
+  font-size: 60px;
+  text-align: center;
+  /*Редактирование внешнего поля элемента (0 - отсутствие внешних полей)*/
+  margin: 0;
+  /*Редактирование внутреннего поля элемента (20 пикселей для верхней и нижней границ, 0 - для боковых)*/
+  padding: 20px 0;    
+  color: #D69122;
+  /*Тень заголовка*/
+  text-shadow: 3px 3px 1px black;
+}
+/*Высота строки line-height и расстояние между буквами letter-spacing*/
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+/*Установка фона всей страницы*/
+html{
+	background-color: #99CA44;
+}
+/*Настройка тела сайта*/
+body {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #CBE504;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+/*Настройка изображения без больших полей, а также непонятная мне функция display: block*/
+img {
+	display: block;
+	margin: 0 auto;
+}
